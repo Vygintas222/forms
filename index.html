@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form id="contact-form">
+
+
+
+    <div class="form-control">
+        
+        <label for="person-name">Name:</label>
+        <input type="text" name="name" id="person-name" placeholder="Enter your name..">
+        
+    </div>
+    
+    
+    <div class="form-control">
+        
+        <label for="person-surname">Surname:</label>
+        <input type="text" name="surname" id="person-surname" placeholder="Enter your surname..">
+        
+    </div>
+    
+    
+    <div class="form-control">
+        
+        <label for="person-age">Age:</label>
+        <input type="number" name="age" id="person-age" placeholder="Enter your age..">
+        
+    </div>
+    
+    
+    <div class="form-control">
+        
+        <label for="person-email">Email:</label>
+        <input type="email" name="email" id="person-email" placeholder="Enter your email..">
+        
+    </div>
+    
+    
+    <div class="for-control">
+        
+        <label for="it">IT žinios nuo 1 iki 10:</label>
+        <input type="range" name="knowledge" id="it" min="0" max="10">
+        <p><output id="value"></output></p>
+        
+    </div>
+    <fieldset>
+<legend>Group</legend>
+        <div class="form-control">
+            
+            <input type="radio" name="feu" id="feu-groups1" value="FEU 1gr.">
+            <label for="feu-groups1">FEU 1gr.</label>
+            
+                <input type="radio" name="feu" id="feu-groups2" value="FEU 2gr.">
+                <label for="feu-groups2">FEU 2gr.</label>
+            
+                    <input type="radio" name="feu" id="feu-groups3" value="FEU 3gr.">
+                    <label for="feu-groups3">FEU 3gr.</label>
+                         
+                        <input type="radio" name="feu" id="feu-groups4" value="FEU 4gr.">
+                        <label for="feu-groups4">FEU 4gr.</label>
+                            
+                            <input type="radio" name="feu" id="feu-groups5" value="FEU 5gr.">
+                            <label for="feu-groups5">FEU 5gr.</label>
+            
+                                <input type="radio" name="feu" id="feu-groups6" value="FEU 6gr.">
+                                <label for="feu-groups6">FEU 6gr.</label>
+        
+                                    <input type="radio" name="feu" id="feu-groups7" value="FEU 7gr.">
+                                    <label for="feu-groups7">FEU 7gr.</label>
+        
+                                        <input type="radio" name="feu" id="feu-groups8" value="FEU 8gr.">
+                                        <label for="feu-groups8">FEU 8gr.</label>
+        
+                                            <input type="radio" name="feu" id="feu-groups9" value="FEU 9gr.">
+                                            <label for="feu-groups9">FEU 9gr.</label>
+                                        
+                                                <input type="radio" name="feu" id="feu-groups10" value="FEU 10gr.">
+                                                <label for="feu-groups10">FEU 10gr.</label>
+    </div>
+</fieldset>
+    
+    <fieldset>
+<legend>Language</legend>
+        <div class="form-control">
+            
+            <label for="interest-1">JavaScript:</label>
+            <input type="checkbox" name="interest" id="interest-1" value="JavaScript" >
+       
+            
+            
+            <label for="interest-2">Python:</label>
+            <input type="checkbox" name="interest" id="interest-2" value="Python">
+            
+            
+            <label for="interest-3">Java:</label>
+            <input type="checkbox" name="interest" id="interest-3" value="Java">
+            
+            
+            <label for="interest-4">Kotlin:</label>
+            <input type="checkbox" name="interest" id="interest-4" value="Kotlin">
+            
+        </div>
+    </fieldset>
+        
+        
+        <input type="submit" value="Submit" id="submit-button">
+        
+    </form>
+  
+    <span id="alert-message"></span>
+    
+    
+    <div id="students-list"></div>
+    
+    
+    
+    
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
